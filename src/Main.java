@@ -1,7 +1,7 @@
 public class Main {
-    public static void main(String[] args){
-        MagicBox <String> forString = new MagicBox <String> (10);//для строк
-        MagicBox <Integer> forNumbers = new MagicBox <Integer> (3); //для чисел
+    public static void main(String[] args) {
+        MagicBox<String> forString = new MagicBox<String>(10);//для строк
+        MagicBox<Integer> forNumbers = new MagicBox<Integer>(3); //для чисел
 
         forString.pick();
         forString.add("FFF");
