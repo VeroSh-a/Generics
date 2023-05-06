@@ -1,7 +1,7 @@
 import java.util.Random;
 
 public class MagicBox<T> {
-     private T[] items;
+    private T[] items;
 
     public MagicBox(int size) {
         items = (T[]) new Object[size];
